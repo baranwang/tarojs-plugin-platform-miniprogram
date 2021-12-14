@@ -38,7 +38,7 @@ const config = {
        * @type {import('tarojs-plugin-platform-miniprogram').Options}}
        */
       {
-        prefix: "<page-meta></<page-meta>", // or path.resolve(__dirname, './prefix.wxml')
+        prefix: "<page-meta></page-meta>", // or path.resolve(__dirname, './prefix.wxml')
       },
     ],
   ],
