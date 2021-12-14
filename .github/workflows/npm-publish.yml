@@ -20,7 +20,7 @@ jobs:
           version: latest
           run_install: true
 
-      - run: npm run build
+      - run: pnpm run build
 
       - run: npm publish --access public
         env:
