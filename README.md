@@ -6,6 +6,16 @@
 
 [@tarojs/plugin-platform-weapp](https://github.com/NervJS/taro/tree/next/packages/taro-weapp) 自定义 wxml 支持
 
+## 安装
+
+```shell
+npm i -D tarojs-plugin-platform-miniprogram
+# or
+pnpm add -D tarojs-plugin-platform-miniprogram
+# or
+yarn add -D tarojs-plugin-platform-miniprogram
+```
+
 ## 配置
 
 `config/index.js` 中引入 plugin
