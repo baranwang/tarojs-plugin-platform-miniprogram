@@ -1,0 +1,22 @@
+<page-meta
+  background-text-style="{{pageMeta.backgroundTextStyle}}"
+  background-color="{{pageMeta.backgroundColor}}"
+  background-color-top="{{pageMeta.backgroundColorTop}}"
+  background-color-bottom="{{pageMeta.backgroundColorBottom}}"
+  root-background-color="{{pageMeta.rootBackgroundColor}}"
+  scroll-top="{{pageMeta.scrollTop}}"
+  scroll-duration="{{pageMeta.scrollDuration}}"
+  page-style="{{pageMeta.pageStyle}}"
+  page-font-size="{{pageMeta.pageFontSize}}"
+  root-font-size="{{pageMeta.rootFontSize}}"
+  page-orientation="{{pageMeta.pageOrientation}}"
+>
+  <navigation-bar
+    title="{{navigationBar.title}}"
+    loading="{{navigationBar.loading}}"
+    front-color="{{navigationBar.frontColor}}"
+    background-color="{{navigationBar.backgroundColor}}"
+    color-animation-duration="{{navigationBar.colorAnimationDuration}}"
+    color-animation-timing-func="{{navigationBar.colorAnimationTimingFunc}}"
+  />
+</page-meta>

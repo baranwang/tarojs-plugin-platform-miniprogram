@@ -1,0 +1,32 @@
+{
+  "name": "tarojs-plugin-platform-miniprogram",
+  "version": "0.0.0",
+  "description": "@tarojs/plugin-platform-weapp custom wxml support",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "npm run build -- --watch",
+    "build": "tsc"
+  },
+  "author": "baranwang",
+  "license": "MIT",
+  "devDependencies": {
+    "@tarojs/components": "^3.3.16",
+    "@tarojs/plugin-platform-weapp": "^3.3.16",
+    "@tarojs/service": "^3.3.16",
+    "@tarojs/taro": "3.3.16",
+    "@types/node": "^16.11.12",
+    "@types/react": "^17.0.37",
+    "react": "^17.0.0",
+    "typescript": "^4.1.0"
+  },
+  "peerDependencies": {
+    "@tarojs/plugin-platform-weapp": "^3.3.16",
+    "@tarojs/service": "^3.3.16",
+    "@tarojs/taro": "3.3.16",
+    "react": "^17.0.0"
+  },
+  "files": [
+    "dist",
+    "template"
+  ]
+}
