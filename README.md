@@ -4,7 +4,7 @@
 [![Node.js Package](https://github.com/baranwang/tarojs-plugin-platform-miniprogram/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/baranwang/tarojs-plugin-platform-miniprogram/actions/workflows/npm-publish.yml)
 ![](https://img.shields.io/npm/l/tarojs-plugin-platform-miniprogram)
 
-[@tarojs/plugin-platform-weapp](https://github.com/NervJS/taro/tree/next/packages/taro-weapp) 自定义 wxml 支持
+[@tarojs/plugin-platform-weapp](https://github.com/NervJS/taro/tree/next/packages/taro-weapp) 自定义 wxml 支持，目前可主要用于支持 [`page-meta`](https://developers.weixin.qq.com/miniprogram/dev/component/page-meta.html) 和 [`navigation-bar`](https://developers.weixin.qq.com/miniprogram/dev/component/navigation-bar.html)，[`Taro`](https://github.com/NervJS/taro) 版本需大于 `3.1.0`
 
 ## 安装
 
