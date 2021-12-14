@@ -1,8 +1,8 @@
 # tarojs-plugin-platform-miniprogram
 
-[![](https://img.shields.io/npm/v/@baranwang/tarojs-plugin-platform-miniprogram)](https://www.npmjs.com/package/@baranwang/tarojs-plugin-platform-miniprogram)
+[![](https://img.shields.io/npm/v/tarojs-plugin-platform-miniprogram)](https://www.npmjs.com/package/tarojs-plugin-platform-miniprogram)
 [![Node.js Package](https://github.com/baranwang/tarojs-plugin-platform-miniprogram/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/baranwang/tarojs-plugin-platform-miniprogram/actions/workflows/npm-publish.yml)
-![](https://img.shields.io/npm/l/@baranwang/tarojs-plugin-platform-miniprogram)
+![](https://img.shields.io/npm/l/tarojs-plugin-platform-miniprogram)
 
 [@tarojs/plugin-platform-weapp](https://github.com/NervJS/taro/tree/next/packages/taro-weapp) 自定义 wxml 支持
 
