@@ -39,6 +39,16 @@ const config = {
        */
       {
         prefix: "<page-meta></page-meta>", // or path.resolve(__dirname, './prefix.wxml')
+
+        /**
+         * @version 0.1.0
+         */
+        include: [
+          "pages/index/index",
+          "pages/logs/logs",
+          new RegExp('^pages/foo'),
+        ],
+        exclude: []
       },
     ],
   ],
