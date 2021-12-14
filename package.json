@@ -1,6 +1,6 @@
 {
   "name": "tarojs-plugin-platform-miniprogram",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "@tarojs/plugin-platform-weapp custom wxml support",
   "main": "dist/index.js",
   "scripts": {
