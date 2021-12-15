@@ -26,26 +26,27 @@ export default (ctx: IPluginContext, options: Options) => {
     useConfigName: "mini",
     async fn({ config }) {
       config.onBuildFinish = ({ stats }) => {
-        stats.compilation.entries.forEach((entry) => {
+        stats?.compilation?.entries?.forEach((entry) => {
           if (entry.miniType !== "PAGE") return
 
           if (
-            options.include &&
+            options?.include &&
             !options.include.some((pattern) => entry.name.match(pattern))
           ) {
             return;
           }
           if (
-            options.exclude &&
+            options?.exclude &&
             options.exclude.some((pattern) => entry.name.match(pattern))
           ) {
             return;
           }
 
           const WxmlFilePath = resolve(
-            config.outputRoot,
+            config?.outputRoot ?? 'dist',
             `${entry.name}.wxml`
           );
+          if (!existsSync(WxmlFilePath)) return;
           const WxmlFileContent = readFileSync(WxmlFilePath, "utf-8");
           let { prefix, suffix } = defaultOptions;
           if (options?.prefix) {
