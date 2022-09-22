@@ -27,6 +27,10 @@ export default (ctx: IPluginContext, options: Options) => {
     async fn({ config }) {
       config.onBuildFinish = ({ stats }) => {
         stats?.compilation?.entries?.forEach((entry) => {
+          if (entry.miniType === undefined) {
+            entry = entry.dependencies?.[0] || {}
+          }
+
           if (entry.miniType !== "PAGE") return
 
           if (
